@@ -35,7 +35,7 @@ We created a mix task to facilitate this for you.
 mix import_data
 ```
 
-## API documentations
+## API documentation
 
 Tasty is a very simple application with only 1 endpoint. 
 Call the `/trucks` endpoint to get a list of all available food trucks.
