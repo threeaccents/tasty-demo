@@ -20,6 +20,12 @@ defmodule TastyWeb.Router do
     get "/", PageController, :home
   end
 
+  scope "/", TastyWeb do
+    pipe_through :api
+
+    get "/trucks", TruckController, :index
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", TastyWeb do
   #   pipe_through :api
