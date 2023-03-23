@@ -51,5 +51,7 @@ The filter keys map to url query params. For example if you want to filter by na
 `/trucks?name=Bonito Poke`.
 
 You may use 1 or all filters to find the perfect truck for you!
+Ex. `/trucks?name=Bonito Poke&address=2511`
+
 
 
