@@ -5,6 +5,8 @@ defmodule Mix.Tasks.ImportData do
   alias Tasty.Importer
 
   def run(_) do
+    Mix.Task.run("app.start")
+
     Importer.run()
   end
 end

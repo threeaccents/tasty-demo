@@ -9,8 +9,6 @@ defmodule Tasty.Importer do
   @items 11
 
   def run() do
-    Mix.Task.run("app.start")
-
     now = NaiveDateTime.utc_now() |> NaiveDateTime.truncate(:second)
 
     trucks =
